@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: baidu
+          uri: https://space.bilibili.com
+          predicates:
+            - Path=/1578110
+  application:
+    name: gatewayService
+server:
+  port: 7000

@@ -1,0 +1,22 @@
+#spring:
+#  application:
+#    name: couponService
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/sms?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: 123
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#        namespace: 764c857f-4d83-4dd2-9077-83ba8961a770
+#mybatis:
+#  mapper-locations: classpath:/mapper/**/*.xml
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      id-type: ASSIGN_ID
+#server:
+#  port: 8082
+
